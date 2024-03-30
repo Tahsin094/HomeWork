@@ -73,7 +73,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    margin: 50px 160px;
+    margin: 50px 180px;
     height: 55vh;
     align-items: center;
 }
@@ -92,8 +92,46 @@ body{
     color: white;
     background-color: cornflowerblue;
     font-size: large;
-    padding: 10px 15px;
+    padding: 12px 20px;
     margin-top: 20px;
     border: none;
     border-radius: 50px;
+}
+
+/* why choose us section styling */
+
+.why-choose-us-section{
+    margin: 20px 180px;  
+}
+.why-choose-us-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.container-description{
+    height: 35vh;
+    width: 80vh;
+    border: 1px solid rgba(128, 128, 128, 0.277);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container-description p{
+    font-size: 15px;
+    color: gray;
+}
+.container-description h5{
+    font-size: large;
+    font-weight: 600;
+}
+.container-description i{
+    font-size: 20px;
+}
+.why-choose-us-headding h4{
+    font-size: 40px;
+}
+.why-choose-us-headding p{
+    font-size: 17px;
+    line-height: 50px;
+    margin: 0px 0px 30px 0px;
+    color: rgb(62, 62, 62);
 }
