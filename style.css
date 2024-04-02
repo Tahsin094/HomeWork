@@ -5,6 +5,7 @@
 }
 body{
     font-family:"Poppins", sans-serif;
+    background-color: white;
 }
    /* nav section styling */
 .nav-area{
@@ -102,6 +103,7 @@ body{
 
 .why-choose-us-section{
     margin: 20px 180px;  
+    height: 70vh;
 }
 .why-choose-us-container{
     display: flex;
@@ -120,8 +122,12 @@ body{
     color: gray;
 }
 .container-description h5{
-    font-size: large;
-    font-weight: 600;
+    font-size: larger;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.856);
+}
+.container-description i{
+    color: rgba(0, 0, 0, 0.856)
 }
 .container-description i{
     font-size: 20px;
@@ -134,4 +140,61 @@ body{
     line-height: 50px;
     margin: 0px 0px 30px 0px;
     color: rgb(62, 62, 62);
+}
+
+/* photos menu styling */
+
+.photos-menu-section {
+    display: flex;
+    margin: 50px 180px;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100vh;
+}
+
+.photos-menu-section img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+.photos-menu {
+    width: 33%;
+    height: 92vh;
+    border: 1px solid rgba(128, 128, 128, 0.218);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 2px 2px whitesmoke;
+}
+
+.photos-menu-section-container {
+    margin-top: auto; 
+    padding: 20px; 
+    text-align: left; 
+}
+
+.photos-menu-section-container h4 {
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.82)
+}
+.photos-menu-section-container p{
+    color: rgba(0, 0, 0, 0.813);
+}
+.photos-menu-section-butt{
+    padding: 10px 20px;
+    background-color: rgba(141, 162, 149, 0.14);
+    color: rgba(0, 0, 0, 0.833);
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
