@@ -198,3 +198,40 @@ body{
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
+/* footer section styling  */
+
+.footer-section{
+    margin: 50px 180px;
+    height: 20vh;
+}
+.footer-contant{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.footer-contant li a{
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    margin: 20px 0px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-icon{
+    font-size: 25px;
+    margin-top: 50px;
+    color: gray;
+}
+.footer-text{
+    text-align: center;
+    margin: 25px 0px 50px 0px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+}
